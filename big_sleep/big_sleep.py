@@ -413,7 +413,7 @@ class Imagine(nn.Module):
 from big_sleep import Imagine
 
 dream = Imagine(
-    text = "fire in the sky",
+    text = "hell",
     lr = 5e-2,
     save_every = 25,
     save_progress = True
