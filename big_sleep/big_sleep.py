@@ -410,3 +410,13 @@ class Imagine(nn.Module):
                 if terminate:
                     print('detecting keyboard interrupt, gracefully exiting')
                     return
+from big_sleep import Imagine
+
+dream = Imagine(
+    text = "fire in the sky",
+    lr = 5e-2,
+    save_every = 25,
+    save_progress = True
+)
+
+dream()
